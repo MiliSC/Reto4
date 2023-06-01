@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 200px 300px auto 200px;
+}
+
+.container div{
+    padding: 10px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.item1{
+    background-color: blue;
+    border: yellow solid 4px;
+    grid-row: 1/2;
+}

@@ -1,0 +1,17 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-auto-rows: 1fr 4fr 1fr;
+}
+
+.header, .footer{
+    grid-column: 1 / span 2;
+    background-color:blue;
+  
+}
+.aside, .centro{
+    background-color: aquamarine;
+}
+div{
+    border: solid;
+}
